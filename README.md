@@ -1,18 +1,33 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Frontend Servicios Web
 
-Currently, two official plugins are available:
+Este proyecto es un **frontend en React** que consume APIs para ofrecer servicios como:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generador de QR
+- Generador de PDF
+- Acortador de enlaces
+## 🔧 Requisitos
 
-## React Compiler
+- Node.js >= 14
+- npm o yarn
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ⚡ Instalación
 
-## Expanding the ESLint configuration
+1. Clonar el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/tu-usuario/frontend-servicios-web.git
+cd frontend-servicios-web
+```
+2. Instalar las dependencias:
+```bash
+npm install
+```
+
+3. Levantar el proyecto
+```bash
+npm run dev
+```

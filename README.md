@@ -31,3 +31,32 @@ npm install
 ```bash
 npm run dev
 ```
+
+4. estrucuruta del proyecto
+```bash
+frontend/
+├── public/               # Recursos estáticos (no incluidos en tu árbol, pero típicos en Vite)
+├── src/
+│   ├── assets/           # Imágenes y recursos estáticos (ej. react.svg)
+│   ├── components/       # Componentes reutilizables
+│   │   ├── captcha/      # Integración con reCAPTCHA
+│   │   ├── form/         # Formulario base y botón toggle
+│   │   ├── mensaje/      # Componente de notificaciones/mensajes
+│   │   └── servicio/     # Tarjeta para mostrar los servicios
+│   ├── const/            # Constantes globales (ej. URLs, claves)
+│   ├── features/         # Lógica y vistas por funcionalidad
+│   │   ├── qr-generator/         # Generador de códigos QR + Qrcanvas
+│   │   ├── pdf-foleador/         # Generador de PDFs en blanco
+│   │   └── url-shortener/        # Acortador de URLs (con formularios separados para crear/buscar)
+│   ├── routes/           # Definición de rutas (React Router)
+│   ├── services/         # Llamadas a APIs y lógica de negocio
+│   ├── style/            # Estilos globales (estilos.css)
+│   ├── App.jsx           # Componente raíz (layout, navegación)
+│   └── main.jsx          # Punto de entrada de la aplicación
+├── index.html            # Página principal (Vite)
+├── vite.config.js        # Configuración de Vite
+├── package.json          # Dependencias y scripts
+└── ...
+```
+
+

@@ -13,7 +13,7 @@ function Navegacion() {
         className="text-3xl font-bold text-center mb-10 text-gray-800"
         style={{ textAlign: "center", marginBottom: "30px" }}
       >
-        SERVICIOS VARIOS
+        SERVICIOS EXTENCIBLES
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 ">
         <CardServicios
